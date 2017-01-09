@@ -15,10 +15,12 @@ export default class cameraPractice extends Component {
     state = { images: [] };
 
     componentDidMount() {
+      console.log('made it to componentDidMount')
       const fetchParams = {
         first: 5,
       };
       CameraRoll.getPhotos(fetchParams, this.storeImages, this.logImageError);
+      console.log('made through componentDidMount')
     }
 
     storeImages(data) {
@@ -34,6 +36,7 @@ export default class cameraPractice extends Component {
     }
 
     render() {
+      console.log("help!")
       return (
         <ScrollView style={styles.container}>
           <View style={styles.imageGrid}>

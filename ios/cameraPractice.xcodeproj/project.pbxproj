@@ -25,6 +25,7 @@
 		5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		AA5C16F2D24A40EAB2936612 /* libRCTCamera.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 55330DED487847798E989BC6 /* libRCTCamera.a */; };
+		D7244E731E2327F400C34BC7 /* libRCTCamera.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D7244E5C1E2320E400C34BC7 /* libRCTCamera.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -252,6 +253,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */,
+				D7244E731E2327F400C34BC7 /* libRCTCamera.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
